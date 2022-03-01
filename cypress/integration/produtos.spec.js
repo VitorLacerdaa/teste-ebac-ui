@@ -28,7 +28,7 @@ describe('Funcionalidade Página de produtos', () => {
 
         cy.get('.dropdown-toggle > .mini-cart-items').should('contain' , qnt)
         cy.get('.woocommerce-message').should('contain',  qnt  + ' × “Ajax Full-Zip Sweatshirt” foram adicionados no seu carrinho.')
-        
+         
     });
 
 });
